@@ -12,7 +12,8 @@
 	}
 	
 	traits = {
-		ig_trait_rural_systematic_corruption
+		ig_trait_ing_institutional_inertia
+		ig_trait_ing_institutional_opposition
 		ig_trait_rural_well_oiled_machine
 		ig_trait_rural_systematic_opposition
 	}	

@@ -1,0 +1,300 @@
+
+
+bpm_cor_grifter = {
+	type = condition
+	texture = "gfx/interface/icons/character_trait_icons/grifter.dds"
+	
+	character_modifier = {
+	}
+
+	command_modifier = {
+	}
+	
+	country_modifier = {
+		state_tax_waste_add = 0.01
+	}
+	
+	interest_group_modifier = {
+		#interest_group_pol_str_mult = 0.1
+		interest_group_pol_str_mult = -0.2
+		interest_group_pop_attraction_mult = -0.20
+	}
+	
+	possible = {
+		always = no # BPM corruption traits are added manually via event
+	}
+	
+	replace = {												
+	}
+}
+
+bpm_cor_tax_evasion = {
+	type = condition
+	texture = "gfx/interface/icons/character_trait_icons/grifter.dds"
+	
+	character_modifier = {
+	}
+
+	command_modifier = {
+	}
+	
+	country_modifier = {
+		state_tax_collection_mult = -0.05
+	}
+	
+	interest_group_modifier = {
+		interest_group_pol_str_mult = 0.1
+		interest_group_pop_attraction_mult = -0.20
+	}
+	
+	possible = {
+		always = no # BPM corruption traits are added manually via event
+	}
+	
+	replace = {												
+	}
+}
+
+bpm_cor_tax_evasion = {
+	type = condition
+	texture = "gfx/interface/icons/character_trait_icons/grifter.dds"
+	
+	character_modifier = {
+	}
+
+	command_modifier = {
+	}
+	
+	country_modifier = {
+		country_military_goods_cost_mult = 0.25
+	}
+	
+	interest_group_modifier = {
+		interest_group_pol_str_mult = 0.1
+		interest_group_pop_attraction_mult = -0.20
+	}
+	
+	possible = {
+		always = no # BPM corruption traits are added manually via event
+	}
+	
+	replace = {												
+	}
+}
+
+bpm_cor_diplo = {
+	type = condition
+	texture = "gfx/interface/icons/character_trait_icons/grifter.dds"
+	
+	character_modifier = {
+	}
+
+	command_modifier = {
+	}
+	
+	country_modifier = {
+		country_influence_mult = -0.25
+	}
+	
+	interest_group_modifier = {
+		interest_group_pol_str_mult = 0.1
+		interest_group_pop_attraction_mult = -0.20
+	}
+	
+	possible = {
+		always = no # BPM corruption traits are added manually via event
+	}
+	
+	replace = {												
+	}
+}
+
+bpm_cor_weak = {
+	type = condition
+	texture = "gfx/interface/icons/character_trait_icons/grifter.dds"
+	
+	character_modifier = {
+	}
+
+	command_modifier = {
+	}
+	
+	country_modifier = {
+		country_authority_mult = -0.25
+	}
+	
+	interest_group_modifier = {
+		interest_group_pol_str_mult = 0.1
+		interest_group_pop_attraction_mult = -0.20
+	}
+	
+	possible = {
+		always = no # BPM corruption traits are added manually via event
+	}
+	
+	replace = {												
+	}
+}
+
+bpm_cor_bureaucratic = {
+	type = condition
+	texture = "gfx/interface/icons/character_trait_icons/grifter.dds"
+	
+	character_modifier = {
+	}
+
+	command_modifier = {
+	}
+	
+	country_modifier = {
+		country_bureaucracy_mult = -0.25
+	}
+	
+	interest_group_modifier = {
+		interest_group_pol_str_mult = 0.1
+		interest_group_pop_attraction_mult = -0.20
+	}
+	
+	possible = {
+		always = no # BPM corruption traits are added manually via event
+	}
+	
+	replace = {												
+	}
+}
+
+bpm_cor_consumption = {
+	type = condition
+	texture = "gfx/interface/icons/character_trait_icons/grifter.dds"
+	
+	character_modifier = {
+	}
+
+	command_modifier = {
+	}
+	
+	country_modifier = {
+		state_expected_sol_mult = 2.0
+	}
+	
+	interest_group_modifier = {
+		interest_group_pol_str_mult = 0.1
+		interest_group_pop_attraction_mult = -0.20
+	}
+	
+	possible = {
+		always = no # BPM corruption traits are added manually via event
+	}
+	
+	replace = {												
+	}
+}
+
+bpm_cor_underhanded = {
+	type = condition
+	texture = "gfx/interface/icons/character_trait_icons/grifter.dds"
+	
+	character_modifier = {
+	}
+
+	command_modifier = {
+	}
+	
+	country_modifier = {
+		interest_group_in_opposition_approval_add = -5
+	}
+	
+	interest_group_modifier = {
+		interest_group_pol_str_mult = 0.1
+		interest_group_pop_attraction_mult = -0.20
+	}
+	
+	possible = {
+		always = no # BPM corruption traits are added manually via event
+	}
+	
+	replace = {												
+	}
+}
+
+bpm_cor_monopolist = {
+	type = condition
+	texture = "gfx/interface/icons/character_trait_icons/grifter.dds"
+	
+	character_modifier = {
+	}
+
+	command_modifier = {
+	}
+	
+	country_modifier = {
+		building_throughput_mult = -0.1
+	}
+	
+	interest_group_modifier = {
+		interest_group_pol_str_mult = 0.1
+		interest_group_pop_attraction_mult = -0.20
+	}
+	
+	possible = {
+		always = no # BPM corruption traits are added manually via event
+	}
+	
+	replace = {												
+	}
+}
+
+bpm_cor_construction_favoritism = {
+	type = condition
+	texture = "gfx/interface/icons/character_trait_icons/grifter.dds"
+	
+	character_modifier = {
+	}
+
+	command_modifier = {
+	}
+	
+	country_modifier = {
+		state_construction_mult = -0.25
+	}
+	
+	interest_group_modifier = {
+		interest_group_pol_str_mult = 0.1
+		interest_group_pop_attraction_mult = -0.20
+	}
+	
+	possible = {
+		always = no # BPM corruption traits are added manually via event
+	}
+	
+	replace = {												
+	}
+}
+
+bpm_cor_unregulated = {
+	type = condition
+	texture = "gfx/interface/icons/character_trait_icons/grifter.dds"
+	
+	character_modifier = {
+	}
+
+	command_modifier = {
+	}
+	
+	country_modifier = {
+		state_poor_standard_of_living_add = -3
+		state_middle_standard_of_living_add = -2
+	}
+	
+	interest_group_modifier = {
+		interest_group_pol_str_mult = 0.1
+		interest_group_pop_attraction_mult = -0.20
+	}
+	
+	possible = {
+		always = no # BPM corruption traits are added manually via event
+	}
+	
+	replace = {												
+	}
+}

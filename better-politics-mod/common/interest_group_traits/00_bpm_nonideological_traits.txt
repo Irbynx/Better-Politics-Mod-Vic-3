@@ -1,0 +1,25 @@
+ig_trait_ing_institutional_inertia = {
+	icon = "gfx/interface/icons/ig_trait_icons/systematic_corruption.dds"
+
+	# type is for display order
+	type = unhappy
+	
+	modifier = {
+		country_law_enactment_success_add = -0.025
+		country_law_enactment_time_mult = 0.1
+	}
+}
+
+ig_trait_ing_institutional_opposition = {
+	icon = "gfx/interface/icons/ig_trait_icons/systematic_corruption.dds"
+
+	# type is for display order
+	type = unhappy
+
+	max_approval = angry
+	
+	modifier = {
+		country_law_enactment_success_add = -0.05
+		country_law_enactment_time_mult = 0.2
+	}
+}
