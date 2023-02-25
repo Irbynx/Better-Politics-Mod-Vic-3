@@ -1,5 +1,11 @@
 ﻿l_english:
 
+ # Nonideological traits (inertia)
+ ig_trait_ing_institutional_inertia:0 "Institutional Inertia"
+ ig_trait_ing_institutional_inertia_desc:0 "Even though the material interests of the class that is represented by this group, as a whole, could benefit from certain potential reforms, plenty of the current individuals within this group have achieved their status and position of power purely as a result of the current status quo. Any changes, even positive for them, threaten to remove the current powerbrokers from their positions of power, which they would oppose. A more ideological group would not have the same reservations."
+ ig_trait_ing_institutional_opposition:0 "Institutional Opposition"
+ ig_trait_ing_institutional_opposition_desc:0 "Our recent changes in policy have managed to upset the individuals that are representing this interest group; this makes passing any legislature more difficult as a result of their interference."
+
  # Nonideological traits
  ig_trait_urban_systematic_corruption:0 "Systematic Corruption"
  ig_trait_urban_systematic_corruption_desc:0 "This interest group experiences preferential treatment and has fallen into corruption. Through a network of official connections and special privileges, they systematically hoard wealth, damanging the functioning and legitimacy of our government."

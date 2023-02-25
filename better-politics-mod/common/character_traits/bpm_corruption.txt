@@ -55,7 +55,7 @@ bpm_cor_tax_evasion = {
 	}
 }
 
-bpm_cor_tax_evasion = {
+bpm_cor_military_waste = {
 	type = condition
 	texture = "gfx/interface/icons/character_trait_icons/grifter.dds"
 	
